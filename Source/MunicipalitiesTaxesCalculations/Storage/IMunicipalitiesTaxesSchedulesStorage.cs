@@ -5,7 +5,7 @@
     using SundayCSharpCodingTask.MunicipalitiesTaxesCalculations.Models;
 
     /// <summary>
-    /// Represents municipality taxes schedules storage.
+    /// Represents municipalities taxes schedules storage.
     /// </summary>
     public interface IMunicipalitiesTaxesSchedulesStorage
     {
