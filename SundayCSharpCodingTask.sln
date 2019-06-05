@@ -7,9 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{0EF124
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0C876ED7-80AF-4FAD-ACF7-AD8CC469BDBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalitiesTaxesCalculations", "Source\MunicipalitiesTaxesCalculations\MunicipalitiesTaxesCalculations.csproj", "{A975133C-9104-47CD-82C9-354F3DFF2B7D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A975133C-9104-47CD-82C9-354F3DFF2B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A975133C-9104-47CD-82C9-354F3DFF2B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A975133C-9104-47CD-82C9-354F3DFF2B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A975133C-9104-47CD-82C9-354F3DFF2B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A975133C-9104-47CD-82C9-354F3DFF2B7D} = {0EF124CE-05A0-425E-A67A-E993CCBA68FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03238A6D-2B94-4CD3-A7BB-F762916B5DC5}
