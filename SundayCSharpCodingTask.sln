@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MunicipalitiesTaxesCalculat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalitiesTaxesCalculations.UnitTests", "Tests\UnitTests\MunicipalitiesTaxesCalculations.UnitTests\MunicipalitiesTaxesCalculations.UnitTests.csproj", "{CA4A1D1E-F90B-4F75-874A-B1AA3061D545}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{86BA8C12-F49D-426F-90C9-4DD2B4D29A3E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
