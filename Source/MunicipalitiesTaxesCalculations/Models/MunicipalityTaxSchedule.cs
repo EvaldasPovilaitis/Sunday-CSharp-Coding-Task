@@ -8,6 +8,11 @@
     public class MunicipalityTaxSchedule
     {
         /// <summary>
+        /// Gets or sets id of the municipality tax schedule.
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
         /// Gets or sets municipality name.
         /// </summary>
         public string Municipality { get; set; }
