@@ -12,7 +12,7 @@
         /// </summary>
         /// <param name="municipality">Municipality name.</param>
         /// <param name="date">A date for which to calculate taxes.</param>
-        /// <returns>Returns calculated taxes or zero if no data for the given municipality exists.</returns>
+        /// <returns>Calculated taxes or zero if no data for the given municipality exists.</returns>
         decimal Calculate(string municipality, DateTime date);
     }
 }
